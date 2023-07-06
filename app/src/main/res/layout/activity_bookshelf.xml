@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blur"
+    android:orientation="vertical"
+    tools:context=".DashboardActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="413dp"
+            android:layout_height="64dp"
+            android:background="#0A0A0B"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0">
+
+            <TextView
+                android:textColor="@color/white"
+                android:text="Bookcafeed:"
+                android:textSize="20dp"
+                android:textStyle="bold"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </androidx.appcompat.widget.Toolbar>
+
+
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp">
+
+
+
+        <!--First card-->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardBOOK1"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="8dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#3ABAF4"
+            app:cardUseCompatPadding="true"
+            android:layout_marginBottom="45dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/fire" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!--Second card-->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardbook2"
+            android:layout_width="150dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#3ABAF4"
+
+
+            app:cardCornerRadius="8dp"
+            app:cardUseCompatPadding="true"
+            android:layout_marginBottom="45dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/book2"/>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+
+        <!--Third card-->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardbook3"
+            android:layout_width="150dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#3ABAF4"
+
+            app:cardCornerRadius="8dp"
+            app:cardUseCompatPadding="true"
+            android:layout_marginBottom="45dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/book18"/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+        <!--Third card-->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardbook4"
+            android:layout_width="150dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#3ABAF4"
+
+            app:cardCornerRadius="8dp"
+            app:cardUseCompatPadding="true"
+            android:layout_marginBottom="45dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/rising"/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+        <!--Third card-->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardbook5"
+            android:layout_width="150dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#3ABAF4"
+
+            app:cardCornerRadius="8dp"
+            app:cardUseCompatPadding="true"
+            android:layout_marginBottom="45dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/book5"/>
+
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+        <!--Third card-->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardbook6"
+            android:layout_width="150dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#58BFED"
+
+            app:cardCornerRadius="8dp"
+            app:cardUseCompatPadding="true"
+            android:layout_marginBottom="45dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/caren"/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+
+        <!--Third card-->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardbook7"
+            android:layout_width="150dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#3ABAF4"
+
+            app:cardCornerRadius="8dp"
+            app:cardUseCompatPadding="true"
+            android:layout_marginBottom="45dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/book8"/>
+
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+
+        <!--Third card-->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardbook8"
+            android:layout_width="150dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#3ABAF4"
+
+            app:cardCornerRadius="8dp"
+            app:cardUseCompatPadding="true"
+            android:layout_marginBottom="45dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/book10"/>
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+        <!--Third card-->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardbook9"
+            android:layout_width="150dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#3ABAF4"
+
+            app:cardCornerRadius="8dp"
+            app:cardUseCompatPadding="true"
+            android:layout_marginBottom="45dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/book9"/>
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+        <!--Third card-->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardbook10"
+            android:layout_width="150dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#3ABAF4"
+
+            app:cardCornerRadius="8dp"
+            app:cardUseCompatPadding="true"
+            android:layout_marginBottom="45dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/book16"/>
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+        <!--Third card-->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardbook11"
+            android:layout_width="150dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#3ABAF4"
+
+            app:cardCornerRadius="8dp"
+            app:cardUseCompatPadding="true"
+            android:layout_marginBottom="45dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/book12"/>
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+        <!--Third card-->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardbook12"
+            android:layout_width="150dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#3ABAF4"
+
+            app:cardCornerRadius="8dp"
+            app:cardUseCompatPadding="true"
+            android:layout_marginBottom="45dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/order"/>
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+        <!--Third card-->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardbook13"
+            android:layout_width="150dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#3ABAF4"
+
+            app:cardCornerRadius="8dp"
+            app:cardUseCompatPadding="true"
+            android:layout_marginBottom="45dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/book15"/>
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+            <TextView
+                android:textColor="@color/black"
+                android:text="Knowledge is Power."
+                android:textSize="20dp"
+                android:textStyle="bold"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</ScrollView>

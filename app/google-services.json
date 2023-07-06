@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "783673071773",
+    "project_id": "bookcafeed",
+    "storage_bucket": "bookcafeed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:783673071773:android:e30943f6344ed3999a5c74",
+        "android_client_info": {
+          "package_name": "com.example.bookcafeed"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "783673071773-7hasosn3esaosd3cpqa4kbv3fu0cj4ci.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpoLbWXX7usYAHUGr9bkcvyTwcve8G2kI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "783673071773-7hasosn3esaosd3cpqa4kbv3fu0cj4ci.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

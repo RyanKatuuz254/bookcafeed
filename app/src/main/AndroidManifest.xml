@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Bookcafeed"
+        tools:targetApi="31">
+        <activity
+            android:name=".TerryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ReidActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MiramdaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RebeccaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ImboloActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GrahamActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KarenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HellenActivity"
+            android:exported="false"
+            android:label="@string/title_activity_hellen"
+            android:theme="@style/Theme.Bookcafeed" />
+        <activity
+            android:name=".HarukiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CollenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FireActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SagaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OrderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MythologyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ChancesActivity"
+            android:exported="false"
+            android:label="@string/title_activity_chances"
+            android:theme="@style/Theme.Bookcafeed" />
+        <activity
+            android:name=".KiteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".JamoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".jamesActivity"
+            android:exported="false"
+            android:label="@string/title_activity_james"
+            android:theme="@style/Theme.Bookcafeed" />
+        <activity
+            android:name=".MrsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DallowayActivity"
+            android:exported="false"
+            android:label="@string/title_activity_dalloway"
+            android:theme="@style/Theme.Bookcafeed" />
+        <activity
+            android:name=".HeavenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".annaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CarenActivity"
+            android:exported="false"
+            android:label="@string/title_activity_caren"
+            android:theme="@style/Theme.Bookcafeed" />
+        <activity
+            android:name=".risingActivity"
+            android:exported="false"
+            android:label="@string/title_activity_rising"
+            android:theme="@style/Theme.Bookcafeed" />
+        <activity
+            android:name=".WheelActivity"
+            android:exported="false" />
+        <activity
+            android:name=".seaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".adventurestory"
+            android:exported="false"
+            android:label="@string/title_activity_adventurestory"
+            android:theme="@style/Theme.Bookcafeed" />
+        <activity
+            android:name=".EpicActivity"
+            android:exported="false"
+            android:label="@string/title_activity_epic"
+            android:theme="@style/Theme.Bookcafeed" />
+        <activity
+            android:name=".AuthorsActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".linkpagesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".bookshelfActivity"
+            android:exported="false" />
+        <activity
+            android:name=".authorsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".loginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
